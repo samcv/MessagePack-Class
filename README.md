@@ -46,7 +46,7 @@ their public attributes there are provided the attribute traits ```packed-by``` 
 ```unpacked-by``` which allow you to provide either a subroutine or a method name
 that will work with a representation that will round-trip properly.
 
-A named method supplied to ``packed-by``` will be called on the object to be serialized
+A named method supplied to ```packed-by``` will be called on the object to be serialized
 without any arguments and should return a value suitable for serialization, and a method
 supplied to ```unpacked-by``` will be called on the type object with the value to be
 deserialized as a single positional argument and should return an object of the type.
