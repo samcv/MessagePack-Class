@@ -2,6 +2,8 @@
 
 Serialize/Deserialize Perl 6 classes to/from MessagePack blobs
 
+[![Build Status](https://travis-ci.org/jonathanstowe/MessagePack-Class.svg?branch=master)](https://travis-ci.org/jonathanstowe/MessagePack-Class)
+
 
 ## Synopsis
 
